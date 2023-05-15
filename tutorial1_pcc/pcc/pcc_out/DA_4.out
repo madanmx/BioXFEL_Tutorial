@@ -1,0 +1,160 @@
+REFERENCE DIFFERENCE ELECTRON DENSITY        : 
+ FILE: 1ps.pdb_wd.map                          
+OBSERVED DIFFERENCE ELECTRON DENSITY         : 
+ FILE: 1ps_wd.map                              
+OUTPUT MAP DISPAYING SPHERICAL VOLUME ONLY   : 
+ FILE: pcc_out/DA_4_mask.map                   
+
+
+  READ SYMMETRY OPERATORS (FOR OUTPUT ONLY) ===> 
+
+SYMMETRY OPERATOR:  1     X,Y,Z                               
+       1.0  0.0  0.0        0.00000
+       0.0  1.0  0.0        0.00000
+       0.0  0.0  1.0        0.00000
+
+
+SYMMETRY OPERATOR:  2     1/2-X,-Y,1/2+Z                      
+      -1.0  0.0  0.0        0.50000
+       0.0 -1.0  0.0        0.00000
+       0.0  0.0  1.0        0.50000
+
+
+SYMMETRY OPERATOR:  3     -X,1/2+Y,1/2-Z                      
+      -1.0  0.0  0.0        0.00000
+       0.0  1.0  0.0        0.50000
+       0.0  0.0 -1.0        0.50000
+
+
+SYMMETRY OPERATOR:  4     1/2+X,1/2-Y,-Z                      
+       1.0  0.0  0.0        0.50000
+       0.0 -1.0  0.0        0.50000
+       0.0  0.0 -1.0        0.00000
+
+
+READ MASK COORDINATES                        : 
+ MASK COORDINATES X Y Z :     6.315  22.351   3.995
+READ MASK RADIUS                             : 
+ MASK RADIUS            :     4.000
+ NUMBER OF COLUMNS      :        250
+ NUMBER OF ROWS         :        120
+ NUMBER OF SECTIONS     :        250
+ MODE (O,1,2,3,4)       :          2
+ FIRST COLUMN IN MAP    :          0
+ FIRST ROW IN MAP       :          0
+ FIRST SECTION IN MAP   :          0
+ INTERVALS ALONG X      :        120
+ INTERVALS ALONG Y      :        250
+ INTERVALS ALONG Z      :        250
+ CELL DIMENSIONS 
+ A      :     54.980
+ B      :    116.690
+ C      :    117.860
+ ALPHA  :     90.000
+ BETA   :     90.000
+ GAMMA  :     90.000
+ AXIS CORRESPONDING TO COLUMNS  :      2
+ AXIS CORRESPONDING TO ROWS     :      1
+ AXIS CORRESPONDING TO SECTIONS :      3
+ SPACE GROUP NUMBER             :     19
+ BYTES USED TO STORE SYM-OPS    :    320
+ NUMBER OF LABELS USED          :      1
+ LABEL(1): Map from fft                                                                   
+ MINIMUM DENSITY IN MAP         :    -0.680453
+ MAXIMUM DENSITY IN MAP         :     0.820781
+ AVERAGE (MEAN) DENSITY IN MAP  :    -0.000000
+ RMS DEVIATION FROM AVERAGE     :     0.062709
+ MACHINE STAMP INT REPRESENT    :        16708
+ SYMMETRY OPERATORS: 
+ X,  Y,  Z                                                                       
+ -X+1/2,  -Y,  Z+1/2                                                             
+ X+1/2,  -Y+1/2,  -Z                                                             
+ -X,  Y+1/2,  -Z+1/2                                                             
+ NUMBER OF 256 WORD RECORDS INCL. HEADER:      29298
+ + 1 PARTIALLY FILLED BY  560 WORDS
+ TOTAL BYTES   30001344
+ TOTAL WORDS    7500336
+ ENTIRE FILE WILL BE READ === 
+ TOTAL BYTES         :        30001344
+ TOTAL WORDS         :         7500336
+ HEADER              :             336
+  ----------------------------------- 
+ ORTHOGONALIZATION MATRIX 
+  54.98000   0.00000   0.00000
+   0.00000 116.69000  -0.00000
+   0.00000   0.00000 117.86000
+ INVERSE OF ORTHOGONALIZATION MATRIX 
+   0.01819  -0.00000  -0.00000
+   0.00000   0.00857   0.00000
+   0.00000   0.00000   0.00848
+  ----------------------------------- 
+ BOX FROM XMIN TO XMAX,      YMIN TO YMAX,      ZMIN TO ZMAX 
+          2.086  10.544 ||    18.118  26.584 ||    -0.241   8.231
+
+ BOX GRID FROM NXMIN TO NXMAX, NYMIN TO NYMAX, NZMIN TO NZMAX 
+ NXMIN          2 || NYMIN        36 || NZMIN        -2
+ NXMAX         25 || NYMAX        58 || NZMAX        19
+ TOTALX        23 || TOTALY       22 || TOTALZ       21
+ NUMBER OF GRID POINTS IN MASK :            2656
+
+
+ NUMBER OF COLUMNS      :        250
+ NUMBER OF ROWS         :        120
+ NUMBER OF SECTIONS     :        250
+ MODE (O,1,2,3,4)       :          2
+ FIRST COLUMN IN MAP    :          0
+ FIRST ROW IN MAP       :          0
+ FIRST SECTION IN MAP   :          0
+ INTERVALS ALONG X      :        120
+ INTERVALS ALONG Y      :        250
+ INTERVALS ALONG Z      :        250
+ CELL DIMENSIONS 
+ A      :     54.980
+ B      :    116.690
+ C      :    117.860
+ ALPHA  :     90.000
+ BETA   :     90.000
+ GAMMA  :     90.000
+ AXIS CORRESPONDING TO COLUMNS  :      2
+ AXIS CORRESPONDING TO ROWS     :      1
+ AXIS CORRESPONDING TO SECTIONS :      3
+ SPACE GROUP NUMBER             :     19
+ BYTES USED TO STORE SYM-OPS    :    320
+ NUMBER OF LABELS USED          :      1
+ LABEL(1): Map from fft                                                                   
+ MINIMUM DENSITY IN MAP         :    -0.039535
+ MAXIMUM DENSITY IN MAP         :     0.021682
+ AVERAGE (MEAN) DENSITY IN MAP  :    -0.000000
+ RMS DEVIATION FROM AVERAGE     :     0.003395
+ MACHINE STAMP INT REPRESENT    :        16708
+ SYMMETRY OPERATORS: 
+ X,  Y,  Z                                                                       
+ -X+1/2,  -Y,  Z+1/2                                                             
+ X+1/2,  -Y+1/2,  -Z                                                             
+ -X,  Y+1/2,  -Z+1/2                                                             
+ NUMBER OF 256 WORD RECORDS INCL. HEADER:      29298
+ + 1 PARTIALLY FILLED BY  560 WORDS
+ TOTAL BYTES   30001344
+ TOTAL WORDS    7500336
+ ENTIRE FILE WILL BE READ === 
+ TOTAL BYTES         :        30001344
+ TOTAL WORDS         :         7500336
+ HEADER              :             336
+
+
+  ===================================== 
+  ===================================== 
+
+ PEARSON CORRELATION COEFFICIENT     
+ MATCHED GRID POINTS > 1.5 SIGMA                1793
+ SELECTED FROM GRID POINTS IN MASK              2656
+ CORRELATION COEFFICIENT :          0.665
+
+  ===================================== 
+  ===================================== 
+
+ WRITE EMPTY MAP WITH MASK FOR CHECK ONLY 
+ EMPTY MAP WRITTEN OUT, WITH MASK VOLUME FILLED WITH RHO = 2.0 
+ TOTAL NUMBER OF WORDS, TOTAL NUMBER OF BYTES :         7500336       30001344 FILENAME : pcc_out/DA_4_mask.map                                       
+
+

@@ -1,0 +1,31 @@
+Summary of pccs
+pcc_out/BpropA_2p5.out
+ CORRELATION COEFFICIENT :          0.845
+pcc_out/BpropB_2p5.out
+ CORRELATION COEFFICIENT :          0.750
+pcc_out/CpropA_2p5.out
+ CORRELATION COEFFICIENT :          0.839
+pcc_out/CpropB_2p5.out
+ CORRELATION COEFFICIENT :          0.757
+pcc_out/D207A_3.out
+ CORRELATION COEFFICIENT :          0.741
+pcc_out/D207B_3.out
+ CORRELATION COEFFICIENT :          0.766
+pcc_out/DA_4.out
+ CORRELATION COEFFICIENT :          0.665
+pcc_out/DB_4.out
+ CORRELATION COEFFICIENT :          0.696
+pcc_out/H260A_2p5.out
+ CORRELATION COEFFICIENT :          0.676
+pcc_out/H260B_2p5.out
+ CORRELATION COEFFICIENT :          0.738
+pcc_out/MWA_2.out
+ CORRELATION COEFFICIENT :          0.674
+pcc_out/PWA_3.out
+ CORRELATION COEFFICIENT :          0.646
+pcc_out/PWA_9.out
+ CORRELATION COEFFICIENT :          0.625
+pcc_out/PWB_3.out
+ CORRELATION COEFFICIENT :          0.696
+pcc_out/PWB_9.out
+ CORRELATION COEFFICIENT :          0.622
