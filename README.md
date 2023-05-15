@@ -7,14 +7,14 @@ Command to setup the github enviornement
 
 git clone git@github.com:madanmx/BioXFEL_Tutorial.git
 
-Change directory to the quick_check (cd quick_check)
+Change directory to the tutorial1_pcc (cd tutorial1_pcc)
 
 Tutorial 1: Compute and compare pcc of observed and calculated DED maps
 Files and folders:
 dark.pdb           #dark refined pdb
 refine.mtz         #refine.mtz with dark phases 
 1ps_extra_25.mtz   #extrapolated mtz file with 25 activation factor
-1ps.pdb            #File from the literature (Elin et. al.,) 
+1ps.pdb            #File from the literature (Elin et. al.2020,) 
 1ps.pdb_wd.map     #Calculated DED map
 calc_dmap_b2.sh    #Script to calculate calculated DED map
 mock-dark and mock-dark.f #Fortran programs to be used for calculated DED map
