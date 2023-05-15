@@ -9,7 +9,7 @@ Make sure to execute the following commands to setup tutorial 
 1.Login to the github in the web browser.
 2.In the command prompt type ssh-keygen
 3.It will be stored somewhere in /path/.ssh/id_rsa.pub 
-4.Copy the content of id_rsa.pub to the github > settings > SSH and GPG keys> newSSH keys > paste the key from id_rsa.pub here
+4.Copy the content of id_rsa.pub (use the command "cat id_rsa.pub" to the github (in web browser) > settings > SSH and GPG keys> newSSH keys > paste the key from id_rsa.pub here
 
 git clone git@github.com:madanmx/BioXFEL_Tutorial.git
 
